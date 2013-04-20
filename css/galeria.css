@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+
+
+.html,body{
+	background-color:#DAE3A7;
+
+}
+
+
+#principal{
+
+width:950px;
+margin:0 auto;
+
+
+}
+.logoDentro{
+margin:-45px 0 0 180px;
+float:left;	
+}
+
+#menu{
+	
+	margin:0 0 50px 0 ;
+	padding:60px 0 0 0;
+	background:#42381B;
+	width:100%x;
+	height:80px;
+	z-index:-1;	
+	
+}
+#lista{
+margin-left:350px;
+
+}
+
+
+#lista li{
+	background:#F5F5F5;
+	line-height:25px;
+	float:left;
+	width:70px;
+	height:25px;
+	margin:0 0 0 20px;
+	text-decoration:none;
+	list-style:none;
+	alignment-baseline:baseline;
+	border:3px solid black; 
+	text-align:center;
+	border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	font-family:Cooper Std Black;
+}
+
+#lista li a{
+	text-decoration:none;
+	color:black;	
+}
+
+#proprietario{
+font-family:Verdana;
+font-size:12px;
+display:block;
+width:900px;
+height:470px;
+float:left;	
+margin:0 0 50px 15px;
+border:#CCC solid 2px;
+border-top-left-radius: 20px 40px; 
+border-top-right-radius: 20px 40px; 
+border-bottom-right-radius: 20px 40px; 
+border-bottom-left-radius: 20px 40px;
+}
+
+#vacina{
+font-family:Verdana;
+font-size:12px;
+display:block;
+width:900px;
+display:table;
+float:left;	
+margin:0 0 50px 15px;
+border:#CCC solid 2px;
+border-top-left-radius: 20px 40px; 
+border-top-right-radius: 20px 40px; 
+border-bottom-right-radius: 20px 40px; 
+border-bottom-left-radius: 20px 40px;
+}
+
+.pegadasInterna{
+position:fixed;
+top:0;
+right:0;
+
+
+}
+
+.dogs{
+	position:fixed;
+	bottom:0;
+	right:0;
+	
+}
+
+.pegadinhas{
+position:fixed;
+bottom:0;
+left:0;
+	
+}
+
+#proprietario label{
+margin:0 0 0 20px;	
+}
+
+#vacina label{
+margin:0 0 0 20px;	
+}
+
+#tabelaVacina{
+	text-decoration:none; color:black; font-weight:bold; text-indent:none;
+}
+#tabelaVacina:hover{
+	text-decoration:none; color:red; font-weight:bold; text-indent:none;
+}
+
+.campos{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	border:2px solid black; 
+	
+		font-family:Verdana, Geneva, sans-serif;
+	}
+#botao{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	border:2px solid black; 
+	
+		font-family:Verdana, Geneva, sans-serif;
+		font-weight:bold;
+	}
+	#botao:hover{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	background:#999;
+	
+		font-family:Verdana, Geneva, sans-serif;font-weight:bold;
+	}
+.html,body label{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}

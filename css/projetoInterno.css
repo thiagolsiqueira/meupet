@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+
+
+
+.html,body{
+	background:#DAE3A7;
+	overflow:scroll;
+	font-family:Helvetica;
+	 
+}
+
+#principal{
+
+width:950px;
+margin:0 auto;
+margin-bottom:100px;
+
+
+
+}
+.logoDentro{
+margin:30px 0 0 50px;
+float:left;	
+}
+
+
+.menu3 {padding:0 0 0 32px; margin:70px 0 20px 270px; list-style:none; height:35px; background:#fff url(menu/three_0.gif) repeat-x;  border:1px solid #000; border-width:0 1px; border-bottom:1px solid #444;}
+.menu3 li {float:left; width:120px;}
+.menu3 li a {display:block; float:left; height:35px;width:125px; line-height:35px; color:#aaa; text-decoration:none; font-size:11px; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center;  cursor:pointer;}
+.menu3 li a b {float:left; display:block; padding:0 16px 0 8px;}
+.menu3 li.current a {color:#fff; background:url(three_2.gif);}
+.menu3 li.current a b {background:url(menu/three_2.gif) no-repeat right top;}
+.menu3 li a:hover {color:#fff; background:url(menu/three_1.gif) no-repeat; width:125px;}
+.menu3 li a:hover b {background:url(menu/three_1.gif) no-repeat right top;}
+.menu3 li.current a:hover {color:#fff; background:#000 url(menu/three_2.gif); cursor:default;}
+.menu3 li.current a:hover b {background:url(menu/three_2.gif) no-repeat right top;}
+
+#proprietario{
+	overflow:hidden;
+font-family:Verdana;
+font-size:12px;
+display:block;
+width:920px;
+height:500px;
+float:left;	
+background:#f9fedd;
+position:relative;
+top:10px;
+left:10px;
+padding-bottom:10px;
+border:#000 solid 2px;
+border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+}
+
+#consulta{
+
+font-family:Verdana;
+font-size:12px;
+display:block;
+width:850px;
+display:table;
+float:left;	
+margin:50px 0 20px 30px;
+padding-left:20px;
+border:#CCC solid 2px;
+border-top-left-radius: 10px 10px; 
+border-top-right-radius: 10px 10px; 
+border-bottom-right-radius: 10px 10px; 
+border-bottom-left-radius: 10px 10px;
+}
+
+
+
+
+
+
+#proprietario label{
+margin:0 0 0 20px;	
+}
+
+#vacina label{
+margin:0 0 0 20px;	
+}
+
+#tabelaVacina{
+	text-decoration:none; color:black; font-weight:bold; text-indent:none;
+}
+#tabelaVacina:hover{
+	text-decoration:none; color:red; font-weight:bold; text-indent:none;
+}
+
+.campos{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	border:2px solid black; 
+	
+		font-family:Verdana, Geneva, sans-serif;
+	}
+#botao{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	border:2px solid black; 
+	
+		font-family:Verdana, Geneva, sans-serif;
+		font-weight:bold;
+	}
+	#botao:hover{
+	padding-left:5px;
+		border-top-left-radius: 20px 40px; 
+  	border-top-right-radius: 20px 40px; 
+  	border-bottom-right-radius: 20px 40px; 
+  	border-bottom-left-radius: 20px 40px;
+	background:#999;
+	
+		font-family:Verdana, Geneva, sans-serif;font-weight:bold;
+	}
+.html,body label{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}
+#mapa{
+list-style:none;
+text-decoration:none;
+
+}
+
+#mapa li{
+float:left;
+padding-top:80px;
+
+
+}

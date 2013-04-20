@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+
+
+.html,body{
+	background:#DAE3A7;
+
+	 
+}
+
+
+#princial{
+width:900px;
+display:table;
+margin:0 auto;
+
+
+}
+
+
+#logo{
+margin:55px 0 130px 180px;	
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------- LOGIN--------------------------------------------------- */
+/*-----------------------------------------------------------------------------------------------------------------*/
+#login{
+	
+	border:3px solid #c6c6c6; 
+	width:390px;height:280px; 
+	background:#f9fedd url(pegada.png) bottom left no-repeat;
+	margin-bottom:50px;
+	border-top-left-radius: 10px 10px; 
+  	border-top-right-radius: 10px 10px; 
+  	border-bottom-right-radius: 10px 10px; 
+  	border-bottom-left-radius: 10px 10px; 
+	font-family:"verdana";
+
+}
+
+
+
+#cachorro{
+float:right;
+margin:-475px 275px 0 0;
+
+
+}
+	
+	
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*------------------------------- MENU---------------------------------- */
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+#menu{
+padding:100px 0 0 0;
+	
+}
+
+#menu li{
+display:block; width:75px; height:20px; float:left;	 margin-left:3px; margin-top:-10px; alignment-adjust:central; text-decoration:none; color:black; font-style:none;
+}
+
+#menu li:hover{
+display:block; width:75px; height:20px; float:left;	 margin-left:3px; text-align:center; text-decoration:none 
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*------------------------------- STYLE DO MÉTODO DE ABRIR FORMULÁRIO NO POUP-UP---------------------------------- */
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+/*----------------------------------------------------CADASTRO DE USUARIO----------------------------------------------------------------------------*/
+#boxes #dialog {
+  width:900px; 
+  height:550px;
+  padding:10px;
+  background-color:#f9fedd;
+  border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+border:1px solid #b6b6b6;
+}
+
+/*--------------------------------------------------ESQUECEU A SENHA---------------------------------------------------------------------------------------*/
+#boxes #dialog2{
+  width:250px; 
+  height:100px;
+  margin-top:140px;
+  margin-left:300px;
+  padding:10px;
+  background-color:#f9fedd;
+  border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+border:1px solid #b6b6b6;
+}
+
+
+/*--------------------------------------------------CADASTRO DO MEDICO---------------------------------------------------------------------------------------*/
+#boxes #dialog3 {
+  width:760px; 
+  height:430px;
+  padding:10px;
+  background-color:#f9fedd;
+  border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+border:1px solid #b6b6b6;
+}
+
+
+/*--------------------------------------------------CADASTRO DA VACINA---------------------------------------------------------------------------------------*/
+#boxes #dialog4 {
+  width:500px; 
+  height:370px;
+  margin:-225px 0 0 -250px;
+  background-color:#f9fedd;
+  border-top-left-radius: 10px 10px; 
+  border-top-right-radius:  10px 10px; 
+  border-bottom-right-radius:  10px 10px; 
+  border-bottom-left-radius: 10px 10px;
+  border:1px solid #b6b6b6;
+}
+
+
+/*--------------------------------------------------CONTROLE DO PESO---------------------------------------------------------------------------------------*/
+#boxes #dialog5 {
+  width:300px; 
+  height:300px;
+  margin:-265px 0 0 -250px;
+  background-color:#f9fedd;
+  border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+border:1px solid #b6b6b6;
+}
+
+.close{display:block; text-align:right; margin-top:10px}
+
+/* --------------------- DIV DE LISTAGEM DE CONSULTAS ----------------------*/
+
+.consulta{
+	float:left;
+	background:#fff;
+margin-top:80px; 
+margin-left:20px;
+border:1px solid #b6b6b6; 
+height:100px; width:400px;
+ border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+}
+
+
+
+
+
+/* --------------------- DIV DE LISTAGEM DE MEDICAÇÃO ----------------------*/
+
+.medicacao{
+float:left;
+background:#fff;
+margin-top:80px; 
+margin-left:50px;
+border:1px solid #b6b6b6; 
+height:100px; width:400px;
+ border-top-left-radius: 10px 10px; 
+border-top-right-radius:  10px 10px; 
+border-bottom-right-radius:  10px 10px; 
+border-bottom-left-radius: 10px 10px;
+}
+
+
+
+/*-------------------------------------CONTEINER DAS TABELAS----------------------------------------------*/
+
+
+/*--------------------------------------RECEITA-----------------------------------------------------------*/
+#lista.tabContainer {width: 850px;}
+#lista .scrollContainer {width: 867px;height: 80px;overflow-y:scroll;}
+#lista .tabela-coluna0{width: 99px;}
+#lista .tabela-coluna1{width: 149px;}
+#lista .tabela-coluna2{width: 99px;}
+#lista .tabela-coluna3{width: 99px;}
+#lista .tabela-coluna4{width: 99px;}
+#lista .tabela-coluna5{width: 99px;}
+
+
+
+/*--------------------------------------PESO-----------------------------------------------------------*/
+#lista.tabContainer {width: 850px;}
+#lista.tabPeso {width: 385px; border:1px solid #c6c6c6}
+#lista .scrollPeso {width: 403px;height:195px;overflow-y:scroll;}
+#lista .coluna-peso0{width: 130px; }
+#lista .coluna-peso1{width: 99px;}
+#lista .coluna-peso2{width: 99px;}
+#lista .coluna-peso3{width: 90px;}
+#lista .coluna-peso4{width: 90px;}
+
+
+/*--------------------------------------CONSULTAS-----------------------------------------------------------*/
+
+#lista.tabCons {width: 420px; border:1px solid #c6c6c6}
+#lista.tabCons2 {width: 800px; border:1px solid #c6c6c6}
+#lista .scrollCons2 {width: 815px;height:195px;overflow-y:scroll;}
+#lista .scrollCons {width: 438px;height:195px;overflow-y:scroll;}
+#lista .coluna-Cons0{width: 110px; }
+#lista .coluna-Cons1{width: 99px;}
+#lista .coluna-Cons2{width: 99px;}
+#lista .coluna-Cons3{width: 105px;}
+#lista .coluna-Cons4{width: 90px;}
+
+/*--------------------------------------VACINA-----------------------------------------------------------*/
+
+#lista.tabVac {width: 840px; border:1px solid #c6c6c6}
+#lista.tabVac2 {width: 800px; border:1px solid #c6c6c6}
+#lista .scrollVac {width: 858px;height:195px;overflow-y:scroll;}
+#lista .scrollVac2 {width: 815px;height:195px;overflow-y:scroll;}
+#lista .coluna-Vac0{width: 99px; }
+#lista .coluna-Vac1{width: 130px;}
+#lista .coluna-Vac2{width: 99px;}
+#lista .coluna-Vac3{width: 130px;}
+#lista .coluna-Vac4{width: 90px;}
+#lista .coluna-Vac5{width: 90px;}
